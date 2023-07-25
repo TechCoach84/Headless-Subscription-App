@@ -1,0 +1,134 @@
+.wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.title {
+  font-family: 'Brandon Grotesque';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 64px;
+  line-height: 115%;
+  display: flex;
+  align-items: center;
+  margin-bottom: 16px;
+  color: #00969f;
+}
+
+.price {
+  font-family: 'Brandon Grotesque';
+  font-style: normal;
+  font-weight: 450;
+  font-size: 32px;
+  line-height: 130%;
+  display: flex;
+  align-items: center;
+  text-align: right;
+  letter-spacing: 0.015em;
+  margin-bottom: 52px;
+  color: #1e1e1e;
+}
+
+.termsList {
+  margin-bottom: 40px;
+}
+
+.termsListItem {
+  font-family: 'Brandon Grotesque';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 115%;
+  margin-bottom: 12px;
+  display: flex;
+  color: #1e1e1e;
+}
+
+.termsLabel {
+  display: flex;
+  color: #1e1e1e;
+}
+
+.eligibilityWrapper {
+  font-family: 'Brandon Grotesque';
+  font-style: normal;
+  font-size: 16px;
+  line-height: 130%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 16px;
+}
+
+.subscriber {
+  font-weight: 390;
+  margin-right: 4px;
+  white-space: nowrap;
+}
+
+.eligibility {
+  color: #ff6900;
+  white-space: nowrap;
+  cursor: pointer;
+
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+.styledButton {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  width: 129px;
+  height: 44px;
+  border: none;
+  background: #ff6900;
+  border-radius: 4px;
+  color: #fcf7ed;
+  font-family: 'Brandon Grotesque';
+  font-style: normal;
+  font-weight: 450;
+  font-size: 16px;
+}
+
+.imageWrapper {
+  margin: 178.5px;
+}
+
+@media (max-width: 720px) {
+  .title {
+    font-weight: 450;
+    font-size: 32px;
+    line-height: 46px;
+    margin-bottom: 4px;
+  }
+
+  .price {
+    font-size: 20px;
+    line-height: 26px;
+    margin-bottom: 24px;
+  }
+
+  .termsList {
+    margin-bottom: 32px;
+  }
+
+  .termsListItem {
+    font-size: 16px;
+    line-height: 23px;
+    margin-bottom: 8px;
+  }
+
+  .eligibilityWrapper {
+    flex-direction: column;
+  }
+
+  .styledButton {
+    display: block;
+
+    width: 100%;
+  }
+}

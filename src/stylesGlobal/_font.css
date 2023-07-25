@@ -1,0 +1,49 @@
+@font-face {
+    font-family: 'Roc Grotesk Medium';
+    src: url('../@fonts/webFonts/RocGroteskMedium/font.woff2') format('woff2'),
+        url('../@fonts/webFonts/RocGroteskMedium/font.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: "Roc Grotesk Light";
+    src: url('../@fonts/webFonts/RocGroteskLight/font.woff2') format('woff2'),
+        url('../@fonts/webFonts/RocGroteskLight/font.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: "Roc Grotesk Bold";
+    src: url('../@fonts/webFonts/RocGroteskBold/font.woff2') format('woff2'),
+        url('../@fonts/webFonts/RocGroteskBold/font.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: "Roc Grotesk Black";
+    src: url('../@fonts/webFonts/RocGroteskBlack/font.woff2') format('woff2'),
+        url('../@fonts/webFonts/RocGroteskBlack/font.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}    
+@font-face {
+    font-family: "Roc Grotesk Thin";
+    src: url('../@fonts/webFonts/RocGroteskThin/font.woff2') format('woff2'),
+        url('../@fonts/webFonts/RocGroteskThin/font.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}       
+@font-face {
+    font-family: 'Roc Grotesk Regular';
+    src: url('../@fonts/webFonts/RocGroteskRegular/font.woff2') format('woff2'),
+        url('../@fonts/webFonts/RocGroteskRegular/font.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}      
+@font-face {
+    font-family: 'Roc Grotesk Extra Bold';
+    src: url('../@fonts/webFonts/RocGroteskExtraBold/font.woff2') format('woff2'),
+        url('../@fonts/webFonts/RocGroteskExtraBold/font.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}   
